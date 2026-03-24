@@ -1,0 +1,9 @@
+- Règle absolue : chaque composant section doit contenir au moins 1 lien/bouton WhatsApp
+- WhatsAppFAB.tsx : position fixed bottom-right, z-index 1000, animation pulse CSS, TOUJOURS visible
+- OrderModal.tsx : bottom sheet (slide-up), sélection variante obligatoire avant envoi, champ nom obligatoire
+- ProductCard.tsx : reçoit un Product depuis data/products.ts, bouton "Je commande" → ouvre OrderModal
+- LanguageSwitcher.tsx : switch FR/Ewe via next-intl routing
+- WhatsAppIcon.tsx : composant SVG réutilisable pour l'icône WhatsApp
+- Palette de couleurs : utiliser UNIQUEMENT les variables CSS définies dans globals.css
+- Boutons WhatsApp : toujours --green-wa, toujours avec l'icône SVG WhatsApp inline
+- Tout texte visible passe par useTranslations() — jamais de texte hardcodé

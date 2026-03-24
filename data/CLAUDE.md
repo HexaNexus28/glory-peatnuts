@@ -1,0 +1,6 @@
+- products.ts est la SEULE source de vérité pour le catalogue
+- Pour modifier un prix : changer dans products.ts → tous les composants se mettent à jour
+- Pour ajouter un produit : ajouter un objet Product dans le tableau products[]
+- Pour désactiver un produit sans le supprimer : mettre available: false
+- Ne jamais hardcoder des prix ou noms de produits dans les composants
+- Champs i18n : name (FR), nameLocal (Ewe), description (FR), descriptionLocal (Ewe)

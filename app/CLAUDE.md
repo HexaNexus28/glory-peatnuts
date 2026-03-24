@@ -1,0 +1,5 @@
+- layout.tsx (root) : minimal, passe children, importe globals.css
+- [locale]/layout.tsx : contient metadata locale + composant LocalBusinessSchema (JSON-LD) + NextIntlClientProvider
+- [locale]/page.tsx : importe et assemble tous les composants sections dans l'ordre de conversion
+- globals.css : variables CSS (--gold, --earth, --green-wa, etc.), animation pulse-wa, pas de styles custom ad hoc
+- Jamais de logique métier dans layout.tsx ou page.tsx — uniquement assemblage de composants

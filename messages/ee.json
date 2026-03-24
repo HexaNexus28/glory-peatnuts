@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "Azĩ kple Atsɔmo Yeye — Asi Adidogomé, Lomé | Togo",
+    "description": "Azĩ sise kple atsɔmo yeye le Asi Adidogomé, Lomé. Ƒle kabakaba to WhatsApp dzi. Woate ŋu ana wòfe nusiwo."
+  },
+  "nav": {
+    "switchLang": "Français",
+    "products": "Nunɔamesiwo",
+    "contact": "Kadodo"
+  },
+  "hero": {
+    "title": "Azĩ kple Atsɔmo Yeye",
+    "subtitle": "Tso Asi Adidogomé, Lomé",
+    "description": "Azĩ sise nyuitɔwo kple atsɔmo yeye le Lomé. Ƒle to WhatsApp dzi!",
+    "cta_primary": "Ƒle le WhatsApp dzi",
+    "cta_secondary": "Kpɔ nunɔamesiwo"
+  },
+  "proof": {
+    "fresh": "Yeye 100%",
+    "fresh_desc": "Wosine ŋdi sia ŋdi",
+    "fast": "Ƒleƒle kabakaba",
+    "fast_desc": "Zi 2 le WhatsApp dzi",
+    "delivery": "Woate ŋu ana wòfe nusiwo",
+    "delivery_desc": "Le Lomé kple eƒe nutome",
+    "quality": "Nyo nyo",
+    "quality_desc": "Ƒe 10 dzi"
+  },
+  "products": {
+    "title": "Míaƒe Nunɔamesiwo",
+    "subtitle": "Tia nusiwo nè lɔ̃ nè eye nàƒle",
+    "order": "Maƒle",
+    "bestseller": "Amewo ƒlea wu",
+    "nouveau": "Yeye",
+    "promo": "Promo",
+    "unavailable": "Megali o"
+  },
+  "order_modal": {
+    "title": "Wòƒe ƒleƒle",
+    "select_variant": "Tia nusiatɔ ɖeka",
+    "name_label": "Wòƒe ŋkɔ",
+    "name_placeholder": "Kpɔɖeŋu: Afi",
+    "address_label": "Afisiwo nàna wòfe nusiwo (ɖe mele be nàŋlɔe o)",
+    "address_placeholder": "Kpɔɖeŋu: Adidogomé, le asi la gbɔ",
+    "send": "Ɖoe ɖa le WhatsApp dzi",
+    "close": "Tutui"
+  },
+  "how_it_works": {
+    "title": "Aleke ewɔna?",
+    "subtitle": "Afɔɖeɖe 3 koe wɔe be nàxɔ wòfe nusiwo",
+    "step1_title": "Tia",
+    "step1_desc": "Kpɔ míaƒe nunɔamesiwo eye nàtia nusiwo nè lɔ̃",
+    "step2_title": "Ƒle",
+    "step2_desc": "Ɖo wòƒe ƒleƒle ɖa le WhatsApp dzi",
+    "step3_title": "Xɔ",
+    "step3_desc": "Va xɔe le asi la me alo míana wòfe nusiwo",
+    "cta": "Ƒle fifia"
+  },
+  "testimonials": {
+    "title": "Nusi míaƒe ameƒlewo gblɔna",
+    "subtitle": "Ameƒle siwo ƒe dzidzɔ li ƒe 10 dzi",
+    "t1_name": "Afi K.",
+    "t1_text": "Azĩ nyuitɔwo le Lomé katã! Yeye kple sise nyuie. Meƒlena kɔsiɖa sia kɔsiɖa.",
+    "t1_location": "Adidogomé",
+    "t2_name": "Kofi M.",
+    "t2_text": "Atsɔmo la nyo ŋutɔ, abe mama tɔ ene. Woana wòfe nusiwo kabakaba hã!",
+    "t2_location": "Tokoin",
+    "t3_name": "Ama D.",
+    "t3_text": "Dɔwɔƒe nyuie ŋutɔ le WhatsApp dzi. Medo ŋku ɖe eŋu na ŋkɔlawo kple ƒometɔwo katã.",
+    "t3_location": "Bè",
+    "cta": "Va zu míaƒe ameƒle siwo ƒe dzidzɔ li"
+  },
+  "location": {
+    "title": "Míaƒe nɔƒe",
+    "subtitle": "Va kpɔ mí le asi la me alo ƒle le dɔdome",
+    "address_title": "Adress",
+    "address_text": "Asi Adidogomé, Lomé, Togo",
+    "hours_title": "Gaƒoƒowo",
+    "hours_text": "Dzoɖa - Memleɖa : 7h - 18h",
+    "contact_title": "Kadodo",
+    "contact_text": "WhatsApp : +228 90 51 78 27",
+    "delivery_title": "Nusiwo nana",
+    "delivery_text": "Le Lomé kple eƒe nutome",
+    "cta": "Ŋu mí le WhatsApp dzi"
+  },
+  "final_cta": {
+    "title": "Sɔ gbɔ be nàɖu azĩ nyuitɔwo le Lomé?",
+    "subtitle": "Ƒle fifia eye nàxɔ wòfe nusiwo yeye tso asi la me",
+    "cta": "Ƒle le WhatsApp dzi"
+  },
+  "footer": {
+    "name": "Azĩ kple Atsɔmo Adidogomé",
+    "address": "Asi Adidogomé, Lomé, Togo",
+    "hours": "Dzoɖa - Memleɖa : 7h - 18h",
+    "whatsapp": "WhatsApp : +228 90 51 78 27",
+    "rights": "Mɔɖeɖe siwo katã"
+  },
+  "whatsapp_fab": {
+    "label": "Ƒle le WhatsApp dzi"
+  },
+  "common": {
+    "fcfa": "FCFA",
+    "whatsapp_message": "Bonjour ! Je voudrais commander :\n\n• {product} — {variant} — {price} FCFA\n\nNom : {name}\nAdresse : {address}",
+    "whatsapp_quick": "Bonjour ! Je suis intéressé(e) par {product}. Pouvez-vous me donner plus d'informations ?"
+  }
+}

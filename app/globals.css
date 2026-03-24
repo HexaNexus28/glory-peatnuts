@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #C8922A;
+  --gold-light: #E8B04A;
+  --gold-pale: #FDF3E3;
+  --earth: #2C1810;
+  --earth-mid: #5C3420;
+  --cream: #FBF7F0;
+  --green-wa: #25D366;
+  --green-wa-dark: #128C4E;
+  --muted: #6B5744;
+  --white: #FFFFFF;
+}
+
+body {
+  color: var(--earth);
+  background: var(--cream);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes pulse-wa {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 12px rgba(37, 211, 102, 0);
+  }
+}
+
+.animate-pulse-wa {
+  animation: pulse-wa 2s ease-in-out infinite;
+}

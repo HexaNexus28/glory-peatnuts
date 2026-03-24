@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "Arachides & Atsɔmo Frais — Marché Adidogomé, Lomé | Togo",
+    "description": "Arachides grillées et atsɔmo frais au marché Adidogomé, Lomé. Commande rapide sur WhatsApp. Livraison possible."
+  },
+  "nav": {
+    "switchLang": "Eʋegbe",
+    "products": "Produits",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Arachides & Atsɔmo Frais",
+    "subtitle": "Direct du Marché Adidogomé, Lomé",
+    "description": "Les meilleures arachides grillées et atsɔmo frais de Lomé. Commandez en 2 clics sur WhatsApp !",
+    "cta_primary": "Commander sur WhatsApp",
+    "cta_secondary": "Voir les produits"
+  },
+  "proof": {
+    "fresh": "100% Frais",
+    "fresh_desc": "Grillé chaque matin",
+    "fast": "Commande rapide",
+    "fast_desc": "2 clics sur WhatsApp",
+    "delivery": "Livraison possible",
+    "delivery_desc": "Dans Lomé et environs",
+    "quality": "Qualité garantie",
+    "quality_desc": "Depuis plus de 10 ans"
+  },
+  "products": {
+    "title": "Nos Produits",
+    "subtitle": "Choisissez vos favoris et commandez directement",
+    "order": "Je commande",
+    "bestseller": "Best-seller",
+    "nouveau": "Nouveau",
+    "promo": "Promo",
+    "unavailable": "Indisponible"
+  },
+  "order_modal": {
+    "title": "Votre commande",
+    "select_variant": "Choisissez une option",
+    "name_label": "Votre prénom",
+    "name_placeholder": "Ex: Afi",
+    "address_label": "Adresse de livraison (optionnel)",
+    "address_placeholder": "Ex: Adidogomé, près du marché",
+    "send": "Envoyer sur WhatsApp",
+    "close": "Fermer"
+  },
+  "how_it_works": {
+    "title": "Comment ça marche ?",
+    "subtitle": "3 étapes simples pour recevoir vos produits",
+    "step1_title": "Choisissez",
+    "step1_desc": "Parcourez nos produits et sélectionnez vos favoris",
+    "step2_title": "Commandez",
+    "step2_desc": "Envoyez votre commande en un clic sur WhatsApp",
+    "step3_title": "Recevez",
+    "step3_desc": "Récupérez au marché ou faites-vous livrer",
+    "cta": "Commander maintenant"
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "Des clients satisfaits depuis plus de 10 ans",
+    "t1_name": "Afi K.",
+    "t1_text": "Les meilleures arachides de tout Lomé ! Toujours frais et bien grillé. Je commande chaque semaine.",
+    "t1_location": "Adidogomé",
+    "t2_name": "Kofi M.",
+    "t2_text": "L'atsɔmo est excellent, comme celui de ma grand-mère. Livraison rapide en plus !",
+    "t2_location": "Tokoin",
+    "t3_name": "Ama D.",
+    "t3_text": "Service impeccable sur WhatsApp. Je recommande à tous mes amis et ma famille.",
+    "t3_location": "Bè",
+    "cta": "Rejoignez nos clients satisfaits"
+  },
+  "location": {
+    "title": "Nous trouver",
+    "subtitle": "Venez nous voir au marché ou commandez à distance",
+    "address_title": "Adresse",
+    "address_text": "Marché Adidogomé, Lomé, Togo",
+    "hours_title": "Horaires",
+    "hours_text": "Lundi - Samedi : 7h - 18h",
+    "contact_title": "Contact",
+    "contact_text": "WhatsApp : +228 90 51 78 27",
+    "delivery_title": "Livraison",
+    "delivery_text": "Disponible dans Lomé et environs",
+    "cta": "Nous contacter sur WhatsApp"
+  },
+  "final_cta": {
+    "title": "Prêt à goûter les meilleures arachides de Lomé ?",
+    "subtitle": "Commandez maintenant et recevez vos produits frais du marché",
+    "cta": "Commander sur WhatsApp"
+  },
+  "footer": {
+    "name": "Arachides & Atsɔmo Adidogomé",
+    "address": "Marché Adidogomé, Lomé, Togo",
+    "hours": "Lundi - Samedi : 7h - 18h",
+    "whatsapp": "WhatsApp : +228 90 51 78 27",
+    "rights": "Tous droits réservés"
+  },
+  "whatsapp_fab": {
+    "label": "Commander sur WhatsApp"
+  },
+  "common": {
+    "fcfa": "FCFA",
+    "whatsapp_message": "Bonjour ! Je voudrais commander :\n\n• {product} — {variant} — {price} FCFA\n\nNom : {name}\nAdresse : {address}",
+    "whatsapp_quick": "Bonjour ! Je suis intéressé(e) par {product}. Pouvez-vous me donner plus d'informations ?"
+  }
+}

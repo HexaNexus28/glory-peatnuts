@@ -1,0 +1,6 @@
+- PHONE : constante string '22890517827', format international sans + (228 = Togo)
+- buildWhatsAppURL(message) : encode le message et retourne l'URL wa.me complète
+- buildOrderMessage(productName, variantLabel, price, name, address?) : formate le récapitulatif commande pour WhatsApp
+- buildQuickMessage(productName) : message rapide pour question sur un produit
+- Toutes les redirections WhatsApp passent obligatoirement par ces fonctions
+- Le message WhatsApp est toujours en français (la vendeuse lit en français)
