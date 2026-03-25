@@ -35,13 +35,13 @@
     "unavailable": "Indisponible"
   },
   "order_modal": {
-    "title": "Votre commande",
-    "select_variant": "Choisissez une option",
+    "title": "Votre demande",
+    "select_variant": "Quelle quantite vous interesse ?",
     "name_label": "Votre prénom",
     "name_placeholder": "Ex: Afi",
     "address_label": "Adresse de livraison (optionnel)",
     "address_placeholder": "Ex: Adidogomé, près du marché",
-    "send": "Envoyer sur WhatsApp",
+    "send": "Demander le prix sur WhatsApp",
     "close": "Fermer"
   },
   "how_it_works": {
@@ -99,7 +99,7 @@
   },
   "common": {
     "fcfa": "FCFA",
-    "whatsapp_message": "Bonjour ! Je voudrais commander :\n\n• {product} — {variant} — {price} FCFA\n\nNom : {name}\nAdresse : {address}",
+    "whatsapp_message": "Bonjour ! Je suis interesse(e) par :\n\n• {product} — {variant}\n\nNom : {name}\nAdresse : {address}\n\nMerci de me donner les details et le prix !",
     "whatsapp_quick": "Bonjour ! Je suis intéressé(e) par {product}. Pouvez-vous me donner plus d'informations ?"
   }
 }

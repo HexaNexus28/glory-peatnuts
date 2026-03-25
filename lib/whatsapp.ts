@@ -8,14 +8,13 @@ export function buildWhatsAppURL(message: string): string {
 export function buildOrderMessage(
   productName: string,
   variantLabel: string,
-  price: number,
   name: string,
   address?: string
 ): string {
   const lines = [
-    'Bonjour ! Je voudrais commander :',
+    'Bonjour ! Je suis interessé(e) par :',
     '',
-    `• ${productName} — ${variantLabel} — ${price.toLocaleString('fr-FR')} FCFA`,
+    `• ${productName} — ${variantLabel}`,
     '',
     `Nom : ${name}`,
   ];
@@ -23,6 +22,8 @@ export function buildOrderMessage(
   if (address && address.trim()) {
     lines.push(`Adresse : ${address}`);
   }
+
+  lines.push('', 'Merci de me donner les details et le prix !');
 
   return lines.join('\n');
 }

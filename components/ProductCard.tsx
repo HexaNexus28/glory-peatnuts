@@ -44,14 +44,7 @@ export default function ProductCard({ product, onOrder }: ProductCardProps) {
 
       <div className="p-4 sm:p-5 flex flex-col flex-1">
         <h3 className="text-lg sm:text-xl font-bold text-earth mb-1">{displayName}</h3>
-        <p className="text-muted text-sm mb-3 flex-1">{displayDesc}</p>
-
-        <div className="flex items-center justify-between mb-4">
-          <span className="text-gold font-bold text-lg">
-            {product.price.toLocaleString('fr-FR')} FCFA
-          </span>
-          <span className="text-muted text-sm">/ {product.unit}</span>
-        </div>
+        <p className="text-muted text-sm mb-4 flex-1">{displayDesc}</p>
 
         {product.available ? (
           <button

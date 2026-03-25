@@ -26,7 +26,7 @@ export default function OrderModal({ product, onClose }: OrderModalProps) {
     if (selectedVariant === null || !name.trim()) return;
 
     const variant = variants[selectedVariant];
-    const message = buildOrderMessage(product.name, variant.label, variant.price, name.trim(), address.trim());
+    const message = buildOrderMessage(product.name, variant.label, name.trim(), address.trim());
     const url = buildWhatsAppURL(message);
     window.open(url, '_blank');
     onClose();
@@ -80,14 +80,13 @@ export default function OrderModal({ product, onClose }: OrderModalProps) {
                   <button
                     key={i}
                     onClick={() => setSelectedVariant(i)}
-                    className={`flex justify-between items-center p-3 rounded-xl border-2 transition-colors ${
+                    className={`flex items-center p-3 rounded-xl border-2 transition-colors ${
                       selectedVariant === i
                         ? 'border-gold bg-gold-pale'
                         : 'border-gray-200 hover:border-gold-light'
                     }`}
                   >
                     <span className="font-medium text-earth">{v.label}</span>
-                    <span className="font-bold text-gold">{v.price.toLocaleString('fr-FR')} FCFA</span>
                   </button>
                 ))}
               </div>

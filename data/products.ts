@@ -26,7 +26,7 @@ export const products: Product[] = [
       { label: 'Grand tas', price: 1000 },
       { label: '1 kg', price: 2500 },
     ],
-    image: '/images/arachides/arachides-grillees.jpg',
+    image: '/images/arachides/Gemini_Generated_Image_6pylnw6pylnw6pyl.png',
     badge: 'bestseller',
     available: true,
   },
@@ -42,7 +42,7 @@ export const products: Product[] = [
       { label: 'Petite portion', price: 500 },
       { label: 'Grande portion', price: 1000 },
     ],
-    image: '/images/atsomo/atsomo.jpg',
+    image: '/images/atsomo/Gemini_Generated_Image_9j9e6d9j9e6d9j9e.png',
     available: true,
   },
 ];

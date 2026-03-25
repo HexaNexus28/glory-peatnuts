@@ -35,13 +35,13 @@
     "unavailable": "Megali o"
   },
   "order_modal": {
-    "title": "Wòƒe ƒleƒle",
-    "select_variant": "Tia nusiatɔ ɖeka",
+    "title": "Wòƒe biabia",
+    "select_variant": "Nuka dzi wòƒe ŋku le?",
     "name_label": "Wòƒe ŋkɔ",
     "name_placeholder": "Kpɔɖeŋu: Afi",
     "address_label": "Afisiwo nàna wòfe nusiwo (ɖe mele be nàŋlɔe o)",
     "address_placeholder": "Kpɔɖeŋu: Adidogomé, le asi la gbɔ",
-    "send": "Ɖoe ɖa le WhatsApp dzi",
+    "send": "Bia eƒe asi le WhatsApp dzi",
     "close": "Tutui"
   },
   "how_it_works": {
@@ -99,7 +99,7 @@
   },
   "common": {
     "fcfa": "FCFA",
-    "whatsapp_message": "Bonjour ! Je voudrais commander :\n\n• {product} — {variant} — {price} FCFA\n\nNom : {name}\nAdresse : {address}",
+    "whatsapp_message": "Bonjour ! Je suis interesse(e) par :\n\n• {product} — {variant}\n\nNom : {name}\nAdresse : {address}\n\nMerci de me donner les details et le prix !",
     "whatsapp_quick": "Bonjour ! Je suis intéressé(e) par {product}. Pouvez-vous me donner plus d'informations ?"
   }
 }
