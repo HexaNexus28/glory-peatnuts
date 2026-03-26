@@ -3,7 +3,7 @@ import type { MetadataRoute } from 'next';
 const BASE_URL = 'https://marche-adidogome.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const locales = ['fr', 'ee'];
+  const locales = ['fr', 'ee', 'en'];
   const lastModified = new Date();
 
   return locales.map((locale) => ({

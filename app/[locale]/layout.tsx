@@ -39,7 +39,7 @@ export async function generateMetadata({
     ],
     openGraph: {
       type: 'website',
-      locale: locale === 'fr' ? 'fr_TG' : 'ee_TG',
+      locale: locale === 'fr' ? 'fr_TG' : locale === 'en' ? 'en_US' : 'ee_TG',
       siteName: 'Arachides & Atsɔmo Adidogomé',
     },
     twitter: {
@@ -69,7 +69,7 @@ function LocalBusinessSchema() {
     openingHours: 'Mo-Sa 07:00-18:00',
     priceRange: 'FCFA 500-2500',
     telephone: '+22890517827',
-    url: 'https://marche-adidogome.vercel.app',
+    url: 'https://glory-nine.vercel.app',
   };
 
   return (
@@ -89,7 +89,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as 'fr' | 'ee')) {
+  if (!routing.locales.includes(locale as 'fr' | 'ee' | 'en')) {
     notFound();
   }
 

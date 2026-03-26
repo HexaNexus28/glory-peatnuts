@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "Fresh Peanuts & Atsɔmo — Adidogomé Market, Lomé | Togo",
+    "description": "Roasted peanuts and fresh atsɔmo from Adidogomé Market, Lomé. Quick order on WhatsApp. Delivery available."
+  },
+  "nav": {
+    "switchLang": "Français",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Fresh Peanuts & Atsɔmo",
+    "subtitle": "Straight from Adidogomé Market, Lomé",
+    "description": "The best roasted peanuts and fresh atsɔmo in Lomé. Order in 2 clicks on WhatsApp!",
+    "cta_primary": "Order on WhatsApp",
+    "cta_secondary": "See products"
+  },
+  "proof": {
+    "fresh": "100% Fresh",
+    "fresh_desc": "Roasted every morning",
+    "fast": "Quick order",
+    "fast_desc": "2 clicks on WhatsApp",
+    "delivery": "Delivery available",
+    "delivery_desc": "In Lomé and surroundings",
+    "quality": "Guaranteed quality",
+    "quality_desc": "For over 10 years"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Choose your favorites and order directly",
+    "order": "I want this",
+    "bestseller": "Best-seller",
+    "nouveau": "New",
+    "promo": "Promo",
+    "unavailable": "Unavailable"
+  },
+  "order_modal": {
+    "title": "Your inquiry",
+    "select_variant": "Which quantity are you interested in?",
+    "name_label": "Your first name",
+    "name_placeholder": "E.g.: Afi",
+    "address_label": "Delivery address (optional)",
+    "address_placeholder": "E.g.: Adidogomé, near the market",
+    "send": "Ask for price on WhatsApp",
+    "close": "Close"
+  },
+  "how_it_works": {
+    "title": "How does it work?",
+    "subtitle": "3 simple steps to receive your products",
+    "step1_title": "Choose",
+    "step1_desc": "Browse our products and select your favorites",
+    "step2_title": "Order",
+    "step2_desc": "Send your order in one click on WhatsApp",
+    "step3_title": "Receive",
+    "step3_desc": "Pick up at the market or get it delivered",
+    "cta": "Order now"
+  },
+  "testimonials": {
+    "title": "What our customers say",
+    "subtitle": "Satisfied customers for over 10 years",
+    "t1_name": "Afi K.",
+    "t1_text": "The best peanuts in all of Lomé! Always fresh and perfectly roasted. I order every week.",
+    "t1_location": "Adidogomé",
+    "t2_name": "Kofi M.",
+    "t2_text": "The atsɔmo is excellent, just like my grandmother's. Fast delivery too!",
+    "t2_location": "Tokoin",
+    "t3_name": "Ama D.",
+    "t3_text": "Impeccable service on WhatsApp. I recommend to all my friends and family.",
+    "t3_location": "Bè",
+    "cta": "Join our happy customers"
+  },
+  "location": {
+    "title": "Find us",
+    "subtitle": "Visit us at the market or order remotely",
+    "address_title": "Address",
+    "address_text": "Adidogomé Market, Lomé, Togo",
+    "hours_title": "Hours",
+    "hours_text": "Monday - Saturday: 7am - 6pm",
+    "contact_title": "Contact",
+    "contact_text": "WhatsApp: +228 90 51 78 27",
+    "delivery_title": "Delivery",
+    "delivery_text": "Available in Lomé and surroundings",
+    "cta": "Contact us on WhatsApp"
+  },
+  "final_cta": {
+    "title": "Ready to taste the best peanuts in Lomé?",
+    "subtitle": "Order now and receive your fresh products from the market",
+    "cta": "Order on WhatsApp"
+  },
+  "footer": {
+    "name": "Peanuts & Atsɔmo Adidogomé",
+    "address": "Adidogomé Market, Lomé, Togo",
+    "hours": "Monday - Saturday: 7am - 6pm",
+    "whatsapp": "WhatsApp: +228 90 51 78 27",
+    "rights": "All rights reserved"
+  },
+  "whatsapp_fab": {
+    "label": "Order on WhatsApp"
+  },
+  "common": {
+    "fcfa": "FCFA",
+    "whatsapp_message": "Hello! I am interested in:\n\n• {product} — {variant}\n\nName: {name}\nAddress: {address}\n\nPlease send me the details and price!",
+    "whatsapp_quick": "Hello! I am interested in {product}. Could you give me more information?"
+  }
+}

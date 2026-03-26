@@ -9,8 +9,11 @@ export default function LanguageSwitcher() {
   const pathname = usePathname();
   const t = useTranslations('nav');
 
+  const localeOrder = ['fr', 'ee', 'en'] as const;
+
   const switchLocale = () => {
-    const nextLocale = locale === 'fr' ? 'ee' : 'fr';
+    const currentIndex = localeOrder.indexOf(locale as (typeof localeOrder)[number]);
+    const nextLocale = localeOrder[(currentIndex + 1) % localeOrder.length];
     router.replace(pathname, { locale: nextLocale });
   };
 
