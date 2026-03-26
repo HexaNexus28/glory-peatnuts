@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { Analytics } from '@vercel/analytics/react';
 import { routing } from '@/i18n/routing';
 import '../globals.css';
 
@@ -39,7 +40,10 @@ export async function generateMetadata({
     openGraph: {
       type: 'website',
       locale: locale === 'fr' ? 'fr_TG' : 'ee_TG',
-      images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
+      siteName: 'Arachides & Atsɔmo Adidogomé',
+    },
+    twitter: {
+      card: 'summary_large_image',
     },
   };
 }
@@ -98,6 +102,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
