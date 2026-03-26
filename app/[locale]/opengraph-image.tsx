@@ -57,7 +57,7 @@ export default function OgImage() {
               color: '#2C1810',
             }}
           >
-            M
+            G
           </div>
         </div>
 
